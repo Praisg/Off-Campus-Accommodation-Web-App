@@ -1,0 +1,5 @@
+{
+    "require": {
+        "paynow/php-sdk": "^1.0"
+    }
+}

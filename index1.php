@@ -9,7 +9,7 @@ include("config.php");
 <html lang="en">
 
 <head>
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -9,7 +9,7 @@ include("config.php");
 <html lang="en">
 
 <head>
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -125,7 +125,7 @@ include("config.php");
                             <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab3" data-toggle="pill" href="#pills-resturant" role="tab" aria-controls="pills-contact" aria-selected="false">Best Sale</a> </li>
                         </ul>
                     </div> --->
-                    <div class="col-md-12"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                    <div class="col-md-12">
                         <div class="tab-content mt-4" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home">
                                 <div class="row">
@@ -134,7 +134,7 @@ include("config.php");
 										while($row=mysqli_fetch_array($query))
 										{
 									?>
-								<div class="col-md-6 col-lg-4"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+								<div class="col-md-6 col-lg-4">
                                         <div class="featured-thumb hover-zoomer mb-4">
                                             <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['11'];?>" alt="pimage">
                                                 <div class="featured bg-success text-white">New</div>
@@ -214,7 +214,7 @@ include("config.php");
         <div class="full-row bg-gray">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                    <div class="col-lg-12">
                         <h2 class="text-secondary double-down-line text-center mb-5">What We Do</h2></div>
                 </div>
                 <div class="text-box-one">

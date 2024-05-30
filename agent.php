@@ -4,7 +4,7 @@ session_cache_limiter(false);
 session_start();
 include("config.php");
 ///code								
-?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +23,7 @@ include("config.php");
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!--	Css Link
 	========================================================-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -58,7 +58,7 @@ include("config.php");
     <div class="row"> 
         <!--	Header One -->
         <!--	Header start  -->
-		<?php include("include/header.php");?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+		<?php include("include/header.php");?>
         <!--	Header end  -->
 
         <!--	Banner   --->
@@ -90,7 +90,7 @@ include("config.php");
                         </div>
                 </div>
                 <div class="row">
-                <!-- FOR MORE PROJECTS visit: codeastro.com -->
+                
                     <?php 
 							$query=mysqli_query($conn,"SELECT * FROM user WHERE utype='agent'");
 								while($row=mysqli_fetch_array($query))

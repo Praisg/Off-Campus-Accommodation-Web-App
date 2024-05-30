@@ -86,7 +86,7 @@ if(!isset($_SESSION['uemail']))
 		 
 		<!--	Submit property   -->
         <div class="full-row bg-gray">
-            <div class="container"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+            <div class="container">
                     <div class="row mb-5">
 						<div class="col-lg-12">
 							<h2 class="text-secondary double-down-line text-center">User Listed Property</h2>
@@ -95,7 +95,7 @@ if(!isset($_SESSION['uemail']))
 								echo $_GET['msg'];	
 							?>
                         </div>
-					</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+					</div>
 					<table class="items-list col-lg-12 table-hover" style="border-collapse:inherit;">
                         <thead>
                              <tr  class="bg-dark">
@@ -109,7 +109,7 @@ if(!isset($_SESSION['uemail']))
                              </tr>
                         </thead>
                         <tbody>
-						<!-- FOR MORE PROJECTS visit: codeastro.com -->
+						
 							<?php 
 							$uid=$_SESSION['uid'];
 							$query=mysqli_query($conn,"SELECT * FROM `property` WHERE uid='$uid'");
@@ -135,7 +135,7 @@ if(!isset($_SESSION['uemail']))
 								<td><a class="btn btn-danger" href="submitpropertydelete.php?id=<?php echo $row['0'];?>">Delete</a></td>
                             </tr>
 							<?php } ?>
-							<!-- FOR MORE PROJECTS visit: codeastro.com -->
+							
                         </tbody>
                     </table>            
             </div>
@@ -151,7 +151,7 @@ if(!isset($_SESSION['uemail']))
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
         <!-- End Scroll To top --> 
     </div>
-</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+</div>
 <!-- Wrapper End --> 
 
 <!--	Js Link

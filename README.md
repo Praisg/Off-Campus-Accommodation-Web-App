@@ -1,4 +1,4 @@
-Student Off-Campus Accommodation web app with Management System
+<b>*Student Off-Campus Accommodation web app with Management System*</b>
 
 This project is a robust web platform designed to facilitate off-campus accommodation and administrative management for students at Harare Institute of Technology (HIT200). The platform integrates secure payment options to streamline transactions and ensure a seamless user experience.
 Features
